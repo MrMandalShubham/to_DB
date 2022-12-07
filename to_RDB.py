@@ -142,6 +142,5 @@ class Product(Process):
 
 
 if __name__ == "__main__":
-    FileProduct = Product("MyntraFasionClothing.csv")
+    FileProduct = Product("CovidData.csv")
     FileProduct.ProductResult()
-    print(FileProduct)
